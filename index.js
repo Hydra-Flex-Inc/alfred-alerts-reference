@@ -218,7 +218,5 @@ const GRUNDFOS_CODES = {
     }
 };
 
-module.exports = {
-    PANEL_CODES: PANEL_CODES,
-    GRUNDFOS_CODES: GRUNDFOS_CODES
-};
+module.exports.PANEL_CODES = PANEL_CODES;
+module.exports.GRUNDFOS_CODES = GRUNDFOS_CODES;
