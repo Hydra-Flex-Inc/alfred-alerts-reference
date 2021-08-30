@@ -53,7 +53,7 @@ exports.default = {
         "51": {
             "summary": "Blocked pump",
             "description": "The pump is blocked.",
-            "rercommendations": ["Dismantle the pump, and remove any foreign matter or impurities preventing the pump from rotating."]
+            "recommendations": ["Dismantle the pump, and remove any foreign matter or impurities preventing the pump from rotating."]
         },
         "10": {
             "summary": "Pump communication fault",

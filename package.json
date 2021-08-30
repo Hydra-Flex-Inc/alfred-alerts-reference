@@ -1,11 +1,21 @@
 {
     "name": "alfred-alerts-reference",
-    "version": "0.1.8",
+    "version": "0.1.10",
     "description": "to come",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 0"
     },
     "author": "",
-    "license": "ISC"
+    "license": "ISC",
+
+    "repository": {
+        "type": "git",
+        "url": "ssh://git@github.com/kpm-at-hfi/alfred-alerts-reference.git",
+        "directory": "packages/alfred-alerts-reference"
+    },
+    "bugs": {
+        "url": "https://github.com/kpm-at-hfi/alfred-alerts-reference/issues"
+    },
+    "homepage": "https://github.com/kpm-at-hfi/alfred-alerts-reference#readme"
 }
