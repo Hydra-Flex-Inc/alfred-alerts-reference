@@ -1,4 +1,4 @@
-module.exports = {
+exports.default = {
     PANEL_CODES: {
         "VALVE_OPENLOAD": {
             "summary": "Open load (missing valve)",
