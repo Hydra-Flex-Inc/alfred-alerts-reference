@@ -1,4 +1,7 @@
 {
     "name": "@kpm-at-hfi/alfred-alerts-reference",
-    "version": "0.2.5"
+    "version": "1.0.0",
+    "description": "Compiled alert reference for the Alfred system",
+    "main": "index.js",
+    "author": "Ken Martin <kmartin@hydraflexinc.com>"
 }
