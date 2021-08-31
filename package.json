@@ -1,8 +1,4 @@
 {
     "name": "@kpm-at-hfi/alfred-alerts-reference",
-    "version": "0.2.3",
-    "type": "module",
-    "description": "to come",
-    "author": "",
-    "license": "ISC"
+    "version": "0.2.4"
 }
