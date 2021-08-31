@@ -1,15 +1,9 @@
 {
     "name": "@kpm-at-hfi/alfred-alerts-reference",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "type": "module",
     "description": "to come",
-    "exports": "./index.mjs",
-    "engines": {
-        "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 0"
-    },
+    "main": "./index.js",
     "author": "",
     "license": "ISC"
 }

@@ -1,4 +1,4 @@
-exports.default = {
+const o = {
     PANEL_CODES: {
         "VALVE_OPENLOAD": {
             "summary": "Open load (missing valve)",
@@ -219,3 +219,4 @@ exports.default = {
         }
     }
 };
+module.exports = o;
