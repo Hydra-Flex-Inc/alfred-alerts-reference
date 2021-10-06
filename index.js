@@ -242,5 +242,6 @@ const GRUNDFOS_CODES = {
 
 module.exports = {
     PANEL_CODES,
+    GATEWAY_CODES,
     GRUNDFOS_CODES
 };
