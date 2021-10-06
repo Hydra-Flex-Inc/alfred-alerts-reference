@@ -13,6 +13,28 @@ const PANEL_CODES = {
         ]
     }
 };
+const GATEWAY_CODES = {
+    "GATEWAY_DISCONNECT_FRESH": {
+        "summary": "Alfred Gateway Disconnected",
+        "description": `The Alfred Gateway is down and has been for TIME_PERIOD. This can happen when the network is down or being worked on and will often recover on its own.`,
+        "recommendations": [
+            "If this persists and you believe the network is working, please power cycle the gateway."
+        ]
+    },
+    "GATEWAY_DISCONNECT_STALE": {
+        "summary": "Alfred Gateway Disconnected",
+        "description": `The Alfred Gateway remains down and has been for TIME_PERIOD. If this goes on too long, there could be some data loss.`,
+        "recommendations": [
+            "Please power cycle the gateway.",
+            "If this persists and you believe the network is working, please contact Hydra-Flex support."
+        ]
+    },
+    "GATEWAY_RECONNECTED": {
+        "summary": "Alfred Gateway Has Recovered",
+        "description": `The Alfred Gateway has reconnected.`,
+        "recommendations": []
+    }
+};
 const GRUNDFOS_CODES = {
     "sources": [
         "MLE type J Alarm codes.pdf"
