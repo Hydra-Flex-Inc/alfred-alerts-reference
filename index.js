@@ -240,7 +240,7 @@ const GRUNDFOS_CODES = {
     }
 };
 
-module.exports = {
+export default {
     PANEL_CODES,
     GATEWAY_CODES,
     GRUNDFOS_CODES
