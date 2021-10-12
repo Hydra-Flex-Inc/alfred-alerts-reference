@@ -240,8 +240,7 @@ const GRUNDFOS_CODES = {
     }
 };
 
-export default {
-    PANEL_CODES,
-    GATEWAY_CODES,
-    GRUNDFOS_CODES
+export default function(alert_enum) {
+    const all = {...PANEL_CODES, ...GATEWAY_CODES, ...GRUNDFOS_CODES };
+    return all[alert_enum] || { summary: "Unknown", description: "An unknown alert has been triggered" }
 };
