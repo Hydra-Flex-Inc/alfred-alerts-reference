@@ -239,8 +239,50 @@ const GRUNDFOS_CODES = {
         "recommendations": ["Identify and remove the fault cause."]
     }
 };
+// Helper function(s)
+const parseMinutesIntoText = (original_minutes) => {
+    original_minutes = +original_minutes;
+    const minutes = original_minutes % 60;
+    const hours = ~~(original_minutes / 60 % 24);
+    const days = ~~(original_minutes / 1440);
 
-export default function(alert_enum) {
-    const all = {...PANEL_CODES, ...GATEWAY_CODES, ...GRUNDFOS_CODES };
-    return all[alert_enum] || { summary: "Unknown", description: "An unknown alert has been triggered" }
+    const nice_text = [];
+    if (days > 0) { nice_text.push(`${days} days`); }
+    if (hours > 0) { nice_text.push(`${hours} hours`); }
+    if (minutes > 0) { nice_text.push(`${minutes} minutes`); }
+
+    const last = nice_text.pop();
+    let out = "";
+
+    if (nice_text.length === 0) {
+        out = last;
+    } else if (nice_text.length === 1) {
+        out = `${nice_text[0]} and ${last}`;
+    } else {
+        out = `${nice_text.join(', ')}, and ${last}`;
+    }
+
+    return out;
 };
+
+const alertDescriptions = {...PANEL_CODES, ...GATEWAY_CODES, ...GRUNDFOS_CODES };
+
+const alertDescriptionLookup = function(alert_enum, alert_value) {
+    const grundfos_regexp = /^GRUNDFOS_(?:FAULT|WARNING)_([0-9]+)$/g;
+    const grundfos_code = grundfos_regexp.exec(alert_enum);
+    if (grundfos_code) {
+        alert_enum = grundfos_code[1];
+    }
+    let out = Object.assign({}, alertDescriptions[alert_enum] || {
+        summary: "Unknown",
+        description: "An unrecognized error has occurred"
+    });
+
+    if (alert_enum.startsWith("GATEWAY_")) {
+        const time_text = parseMinutesIntoText(alert_value) || "a while";
+        out.description = out.description.replace("TIME_PERIOD", time_text);
+    }
+    return out;
+}
+
+export { alertDescriptions, alertDescriptionLookup };
