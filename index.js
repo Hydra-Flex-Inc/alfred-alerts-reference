@@ -168,7 +168,7 @@ const GRUNDFOS_CODES = {
         "recommendations": []
     },
     "175": {
-        "summary": "Signal fault, temperature sensoor 2",
+        "summary": "Signal fault, temperature sensor 2",
         "description": "Pt100/1000 input 2 is receiving a signal which is outside the normal range.",
         "recommendations": [
             "Check that the sensor resistance corresponds to approximately 100 or 1000 ohm. If not, replace the sensor.",
