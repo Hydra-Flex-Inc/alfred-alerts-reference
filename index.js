@@ -275,7 +275,8 @@ const alertDescriptionLookup = function(alert_enum, alert_value) {
     }
     let out = Object.assign({}, alertDescriptions[alert_enum] || {
         summary: "Unknown",
-        description: "An unrecognized error has occurred"
+        description: "An unrecognized error has occurred",
+        recommendations: []
     });
 
     if (alert_enum.startsWith("GATEWAY_")) {
