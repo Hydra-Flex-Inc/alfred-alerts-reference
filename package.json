@@ -1,7 +1,7 @@
 {
     "type": "module",
     "name": "@kpm-at-hfi/alfred-alerts-reference",
-    "version": "1.3.1",
+    "version": "1.3.2",
     "description": "Function to access alert descriptions for the Alfred system",
     "exports": "./index.js",
     "author": "Ken Martin <kmartin@hydraflexinc.com>"
