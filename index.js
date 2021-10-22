@@ -54,12 +54,12 @@ const GRUNDFOS_CODES = {
     },
     "32": {
         "summary": "Overvoltage",
-        "description": "Supply voltage to the pump too high.",
+        "description": "Supply voltage to the pump too high. This is often a transient condition which resolves itself, but if you see many of these we recommend that an electrician verify that your incoming power is stable and that you have no wiring problems.",
         "recommendations": ["Check that the power supply is within the specified range."]
     },
     "40": {
         "summary": "Undervoltage",
-        "description": "Supply voltage to the pump too low.",
+        "description": "Supply voltage to the pump too low. This is often a transient condition which resolves itself, but if you see many of these we recommend that an electrician verify that your incoming power is stable and that you have no wiring problems.",
         "recommendations": ["Check that the power supply is within the specified range."]
     },
     "49": {
