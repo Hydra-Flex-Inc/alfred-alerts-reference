@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v1.0.1...v1.1.0) (2022-02-24)
+
+
+### Features
+
+* improve parseMinutesIntoText ([817bcc5](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/817bcc5b23b8a993303ed107875270f0ca0e3a12))
+
 ## [1.0.1](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v1.0.0...v1.0.1) (2022-02-24)
 
 
