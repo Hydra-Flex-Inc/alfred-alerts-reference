@@ -1,6 +1,6 @@
 name: Release Node.js Package
 
-on: [push]
+on: [release]
 
 jobs:
   release:
