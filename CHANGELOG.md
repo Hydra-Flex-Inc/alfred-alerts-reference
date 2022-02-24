@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.0.0...v2.0.1) (2022-02-24)
+
+
+### Bug Fixes
+
+* remove type:module from package.json ([6661807](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/6661807f9b6af94232059798798a55e5018e45ce))
+
 # [2.0.0](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v1.1.0...v2.0.0) (2022-02-24)
 
 
