@@ -247,7 +247,6 @@ const GRUNDFOS_CODES = {
 // Helper function(s)
 const parseMinutesIntoText = (original_minutes) => {
     let out = null;
-
     if (Number.isFinite(original_minutes)) {
         original_minutes = +original_minutes;
         const minutes = original_minutes % 60;
