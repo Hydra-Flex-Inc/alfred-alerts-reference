@@ -1,3 +1,16 @@
+# [2.0.0](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v1.1.0...v2.0.0) (2022-02-24)
+
+
+### Code Refactoring
+
+* Trivial formatting change ([0d32b01](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/0d32b0103ca5e9bd3926ceb8b46126ec691d98b1))
+
+
+### BREAKING CHANGES
+
+* Marking this as a breaking change to make
+the CI version numbers all happy
+
 # [1.1.0](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v1.0.1...v1.1.0) (2022-02-24)
 
 
