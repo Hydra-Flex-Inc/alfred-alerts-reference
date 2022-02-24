@@ -33,6 +33,11 @@ const GATEWAY_CODES = {
         "summary": "Alfred Gateway Has Recovered",
         "description": `The Alfred Gateway has reconnected.`,
         "recommendations": []
+    },
+    "GATEWAY_REBOOTED": {
+        "summary": "Alfred Gateway Has Been Rebooted",
+        "description": `The Alfred Gateway has been rebooted. No action should be necessary on your part.`,
+        "recommendations": []
     }
 };
 const GRUNDFOS_CODES = {
