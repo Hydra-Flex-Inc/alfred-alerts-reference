@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v1.0.0...v1.0.1) (2022-02-24)
+
+
+### Bug Fixes
+
+* Change branches ([31896ad](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/31896ad04fb6af881ccdb049895a1e7561adc075))
+* Run on master only ([4df2be6](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/4df2be6e05c82c47f86978b4042fe8a206ded24d))
+
 # 1.0.0 (2022-02-24)
 
 
