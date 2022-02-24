@@ -1,7 +1,9 @@
 name: Release Node.js Package
 
-on: [release]
-
+on:
+  release:
+    branches:
+      - master
 jobs:
   release:
     name: Release
