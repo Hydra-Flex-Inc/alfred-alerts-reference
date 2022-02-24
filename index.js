@@ -246,27 +246,29 @@ const GRUNDFOS_CODES = {
 };
 // Helper function(s)
 const parseMinutesIntoText = (original_minutes) => {
-    original_minutes = +original_minutes;
-    const minutes = original_minutes % 60;
-    const hours = ~~(original_minutes / 60 % 24);
-    const days = ~~(original_minutes / 1440);
+    let out = null;
 
-    const nice_text = [];
-    if (days > 0) { nice_text.push(`${days} days`); }
-    if (hours > 0) { nice_text.push(`${hours} hours`); }
-    if (minutes > 0) { nice_text.push(`${minutes} minutes`); }
+    if (Number.isFinite(original_minutes)) {
+        original_minutes = +original_minutes;
+        const minutes = original_minutes % 60;
+        const hours = ~~(original_minutes / 60 % 24);
+        const days = ~~(original_minutes / 1440);
 
-    const last = nice_text.pop();
-    let out = "";
+        const nice_text = [];
+        if (days > 0) { nice_text.push(`${days} days`); }
+        if (hours > 0) { nice_text.push(`${hours} hours`); }
+        if (minutes > 0) { nice_text.push(`${minutes} minutes`); }
 
-    if (nice_text.length === 0) {
-        out = last;
-    } else if (nice_text.length === 1) {
-        out = `${nice_text[0]} and ${last}`;
-    } else {
-        out = `${nice_text.join(', ')}, and ${last}`;
+        const last = nice_text.pop();
+
+        if (nice_text.length === 0) {
+            out = last;
+        } else if (nice_text.length === 1) {
+            out = `${nice_text[0]} and ${last}`;
+        } else {
+            out = `${nice_text.join(', ')}, and ${last}`;
+        }
     }
-
     return out;
 };
 
