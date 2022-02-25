@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.0.1...v2.1.0) (2022-02-25)
+
+
+### Features
+
+* set back to ESM module ([2ff94eb](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/2ff94eb8ae01c50c218a9cd53b3fe221a8794324))
+
 ## [2.0.1](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.0.0...v2.0.1) (2022-02-24)
 
 
