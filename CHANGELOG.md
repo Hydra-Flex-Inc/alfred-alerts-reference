@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.1.0...v2.1.1) (2022-02-25)
+
+
+### Bug Fixes
+
+* improve GATEWAY_RECONNECTED and other text ([054ab83](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/054ab83538089e3795bf1828d920db8e66d470de))
+
 # [2.1.0](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.0.1...v2.1.0) (2022-02-25)
 
 
