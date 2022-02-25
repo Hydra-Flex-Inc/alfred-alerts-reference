@@ -292,4 +292,10 @@ const alertDescriptionLookup = function(alert_enum, alert_value) {
     return out;
 }
 
-export { alertDescriptions, alertDescriptionLookup, PANEL_CODES, GATEWAY_CODES, GRUNDFOS_CODES };
+export {
+    alertDescriptions,
+    alertDescriptionLookup,
+    PANEL_CODES,
+    GATEWAY_CODES,
+    GRUNDFOS_CODES
+};
