@@ -16,14 +16,14 @@ const PANEL_CODES = {
 const GATEWAY_CODES = {
     "GATEWAY_DISCONNECT_FRESH": {
         "summary": "Alfred Gateway Disconnected",
-        "description": `The Alfred Gateway is down and has been for TIME_PERIOD. This can happen when the network is down or being worked on and will often recover on its own.`,
+        "description": `The Alfred Gateway is disconnected from the internet and has been for TIME_PERIOD. This can happen when the network is down or being worked on and will often recover on its own.`,
         "recommendations": [
             "If this persists and you believe the network is working, please power cycle the gateway."
         ]
     },
     "GATEWAY_DISCONNECT_STALE": {
         "summary": "Alfred Gateway Disconnected",
-        "description": `The Alfred Gateway remains down and has been for TIME_PERIOD. If this goes on too long, there could be some data loss.`,
+        "description": `The Alfred Gateway remains disconnected from the internet and has been for TIME_PERIOD. If this goes on too long, there could be some data loss.`,
         "recommendations": [
             "Please power cycle the gateway.",
             "If this persists and you believe the network is working, please contact Hydra-Flex support."
@@ -31,8 +31,10 @@ const GATEWAY_CODES = {
     },
     "GATEWAY_RECONNECTED": {
         "summary": "Alfred Gateway Has Recovered",
-        "description": `The Alfred Gateway has reconnected.`,
-        "recommendations": []
+        "description": `The Alfred Gateway has reconnected to the internet. It had been disconnected from the internet for at least 75 minutes.`,
+        "recommendations": [
+            "If this happens frequently, please contact Hydra-Flex support."
+        ]
     },
     "GATEWAY_REBOOTED": {
         "summary": "Alfred Gateway Has Been Rebooted",
