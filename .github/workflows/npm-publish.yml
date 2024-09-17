@@ -5,8 +5,8 @@ on:
     branches:
       - master
 jobs:
-  release:
-    name: Release
+  test:
+    name: Run Tests
     runs-on: ubuntu-latest
 
     steps:
@@ -16,19 +16,36 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: 14
-        registry-url: https://registry.npmjs.org/
     - name: Install dependencies
-      run: npx ci
-    - name: Install semantic-release extra plugins
-      run: npm install --save-dev @semantic-release/changelog @semantic-release/git
-    # - name: Build
-    #   run: npm run build
-    - name: Release
-      run: npx semantic-release
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NPM_TOKEN: ${{secrets.NPM_TOKEN}}
-        NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+      run: npm ci
+    - name: Run tests
+      run: npm test
+
+    release:
+      name: Release
+      runs-on: ubuntu-latest
+      needs: test
+
+      steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+          registry-url: https://registry.npmjs.org/
+      - name: Install dependencies
+        run: npx ci
+      - name: Install semantic-release extra plugins
+        run: npm install --save-dev @semantic-release/changelog @semantic-release/git
+      # - name: Build
+      #   run: npm run build
+      - name: Release
+        run: npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
   # publish-gpr:
   #   needs: build

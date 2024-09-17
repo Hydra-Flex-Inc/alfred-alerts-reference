@@ -7,7 +7,7 @@ describe('parseMinutesIntoText', () => {
     expect(parseMinutesIntoText(1500)).toBe('1 day and 1 hour');
     expect(parseMinutesIntoText(60)).toBe('1 hour');
     expect(parseMinutesIntoText(61)).toBe('1 hour and 1 minute');
-    // expect(parseMinutesIntoText(0)).toBe(null);
+    expect(parseMinutesIntoText(0)).toBe(null);
   });
 
   it('should return null for invalid input', () => {

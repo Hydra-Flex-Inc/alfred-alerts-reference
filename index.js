@@ -266,7 +266,7 @@ const parseMinutesIntoText = (original_minutes) => {
         const last = nice_text.pop();
 
         if (nice_text.length === 0) {
-            out = last;
+            out = last !== undefined ? last : null;
         } else if (nice_text.length === 1) {
             out = `${nice_text[0]} and ${last}`;
         } else {
