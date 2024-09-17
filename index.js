@@ -256,9 +256,12 @@ const parseMinutesIntoText = (original_minutes) => {
         const days = ~~(original_minutes / 1440);
 
         const nice_text = [];
-        if (days > 0) { nice_text.push(`${days} days`); }
-        if (hours > 0) { nice_text.push(`${hours} hours`); }
-        if (minutes > 0) { nice_text.push(`${minutes} minutes`); }
+        if (days === 1) { nice_text.push(`${days} day`); }
+        if (days > 1) { nice_text.push(`${days} days`); }
+        if (hours === 1) { nice_text.push(`${hours} hour`); }
+        if (hours > 1) { nice_text.push(`${hours} hours`); }
+        if (minutes === 1) { nice_text.push(`${minutes} minute`); }
+        if (minutes > 1) { nice_text.push(`${minutes} minutes`); }
 
         const last = nice_text.pop();
 
@@ -295,9 +298,10 @@ const alertDescriptionLookup = function(alert_enum, alert_value) {
 }
 
 export {
-    alertDescriptions,
-    alertDescriptionLookup,
-    PANEL_CODES,
-    GATEWAY_CODES,
-    GRUNDFOS_CODES
-};
+  parseMinutesIntoText,
+  alertDescriptions,
+  alertDescriptionLookup,
+  PANEL_CODES,
+  GATEWAY_CODES,
+  GRUNDFOS_CODES
+}
