@@ -297,6 +297,7 @@ const alertDescriptionLookup = function(alert_enum, alert_value) {
     return out;
 }
 
+
 export {
   parseMinutesIntoText,
   alertDescriptions,
