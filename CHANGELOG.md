@@ -1,3 +1,11 @@
+## [2.2.3](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.2...v2.2.3) (2024-09-18)
+
+
+### Bug Fixes
+
+* add assets to @semantic-release/github ([5b8244b](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/5b8244b1c4e8345794b7ebbab8b353f0436f2591))
+* correct issue with @semantic-release/github assets field ([910adaf](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/910adaf03fda4532505f100e52d93e70fbf2f84e))
+
 ## [2.2.2](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.1...v2.2.2) (2024-09-18)
 
 
