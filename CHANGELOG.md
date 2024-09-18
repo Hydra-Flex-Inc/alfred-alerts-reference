@@ -1,3 +1,10 @@
+## [2.2.6](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.5...v2.2.6) (2024-09-18)
+
+
+### Bug Fixes
+
+* add permissions to npm-publish.yml ([4cccd5f](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/4cccd5f54247e08b0534594c94f4af0584895b6e))
+
 ## [2.2.5](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.4...v2.2.5) (2024-09-18)
 
 
