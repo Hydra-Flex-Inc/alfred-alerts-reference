@@ -1,3 +1,11 @@
+## [2.2.5](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.4...v2.2.5) (2024-09-18)
+
+
+### Bug Fixes
+
+* remove dependancy on build step ([c14718b](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/c14718bfccc775cf0609bae0a50469265847641c))
+* update npm-publish.yml to publish package ([c4bd743](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/c4bd7433d648f5b5b760e35595afbb60b997b144))
+
 ## [2.2.4](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.3...v2.2.4) (2024-09-18)
 
 
