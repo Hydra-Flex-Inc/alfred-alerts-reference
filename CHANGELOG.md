@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.1.1...v2.2.0) (2024-09-17)
+
+
+### Features
+
+* changed package to Github package ([580d27a](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/580d27ae6d4a05d6ec8dd6f02cfe298807075fcd))
+
 ## [2.1.1](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.1.0...v2.1.1) (2022-02-25)
 
 
