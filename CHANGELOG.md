@@ -1,3 +1,11 @@
+## [2.2.1](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.0...v2.2.1) (2024-09-18)
+
+
+### Bug Fixes
+
+* added NPM_TOKEN back in ([a761bb1](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/a761bb1e296a6f9e4f55d3c58c434eb6edcabd29))
+* update .yml files, documentation ([eccac03](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/eccac03f9cf0bb247971ddd93d876c93b278822f))
+
 # [2.2.0](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.1.1...v2.2.0) (2024-09-17)
 
 
