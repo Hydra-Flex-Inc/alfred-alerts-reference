@@ -15,10 +15,3 @@ plugins:
         - 'CHANGELOG.md'
         - 'dist/**'
       message: 'chore(release): set `package.json` to ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}'
-
-npmPublish: false  # Disable npm publish
-
-publish:
-  - path: '@semantic-release/github'
-    assets:
-      - 'dist/**'

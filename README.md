@@ -1,6 +1,8 @@
 # Alfred Alerts Reference
 
 [![Release Node.js Package](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/actions/workflows/npm-publish.yml)
+[![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
+
 
 Providing a complete set of error codes for the equipment that the Alfred by Hydra-Flex system tracks, and also an accessor function since some types of alerts have nuances that make them a little trickier to identify.
 
