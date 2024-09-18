@@ -1,3 +1,10 @@
+## [2.2.8](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.7...v2.2.8) (2024-09-18)
+
+
+### Bug Fixes
+
+* reverted .releaserc.yml ([757ca7d](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/757ca7dc88fdd6a578eafffdea7b48ad5455f7c2))
+
 ## [2.2.7](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.6...v2.2.7) (2024-09-18)
 
 
