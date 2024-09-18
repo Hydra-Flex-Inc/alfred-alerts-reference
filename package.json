@@ -13,6 +13,8 @@
         "registry": "https://npm.pkg.github.com/"
     },
     "devDependencies": {
+        "@semantic-release/changelog": "^6.0.3",
+        "@semantic-release/git": "^10.0.1",
         "rewire": "^7.0.0",
         "vitest": "^2.1.1"
     },
