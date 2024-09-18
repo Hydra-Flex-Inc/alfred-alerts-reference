@@ -12,8 +12,8 @@ plugins:
     - npmPublish: false
   - - '@semantic-release/github'
     - assets:
-    - 'CHANGELOG.md'
-    - 'dist/**'
+        - 'CHANGELOG.md'
+        - 'dist/**'
   - - '@semantic-release/git'
     - assets:
         - 'CHANGELOG.md'
