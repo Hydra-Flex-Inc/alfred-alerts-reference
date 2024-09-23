@@ -1,3 +1,10 @@
+## [2.2.15](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.14...v2.2.15) (2024-09-23)
+
+
+### Bug Fixes
+
+* add plugin, @semantic-release/npm ([774812a](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/774812a9dec299a992bb7b74785f35e6e278476f))
+
 ## [2.2.14](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.13...v2.2.14) (2024-09-23)
 
 
