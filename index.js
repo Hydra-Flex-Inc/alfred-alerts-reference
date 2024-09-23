@@ -276,9 +276,9 @@ const parseMinutesIntoText = (original_minutes) => {
     return out;
 };
 
-const alertDescriptions = {...PANEL_CODES, ...GATEWAY_CODES, ...GRUNDFOS_CODES };
+const alertDescriptions = { ...PANEL_CODES, ...GATEWAY_CODES, ...GRUNDFOS_CODES };
 
-const alertDescriptionLookup = function(alert_enum, alert_value) {
+const alertDescriptionLookup = function (alert_enum, alert_value) {
     const grundfos_regexp = /^GRUNDFOS_(?:FAULT|WARNING)_([0-9]+)$/g;
     const grundfos_code = grundfos_regexp.exec(alert_enum);
     if (grundfos_code) {
@@ -297,12 +297,11 @@ const alertDescriptionLookup = function(alert_enum, alert_value) {
     return out;
 }
 
-
 export {
-  parseMinutesIntoText,
-  alertDescriptions,
-  alertDescriptionLookup,
-  PANEL_CODES,
-  GATEWAY_CODES,
-  GRUNDFOS_CODES
+    parseMinutesIntoText,
+    alertDescriptions,
+    alertDescriptionLookup,
+    PANEL_CODES,
+    GATEWAY_CODES,
+    GRUNDFOS_CODES
 }
