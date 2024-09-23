@@ -1,3 +1,10 @@
+## [2.2.13](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.12...v2.2.13) (2024-09-23)
+
+
+### Bug Fixes
+
+* Add registery-url to npm-publish ([b5497e2](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/b5497e2d04b7d4afcb3a5159339ab266209e39b9))
+
 ## [2.2.12](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.11...v2.2.12) (2024-09-23)
 
 
