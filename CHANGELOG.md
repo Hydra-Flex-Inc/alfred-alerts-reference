@@ -1,3 +1,10 @@
+## [2.2.9](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.8...v2.2.9) (2024-09-23)
+
+
+### Bug Fixes
+
+* Create GH_TOKEN ([aa803c4](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/aa803c4543282d17b7a0561dc24456d787a25600))
+
 ## [2.2.8](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.7...v2.2.8) (2024-09-18)
 
 
