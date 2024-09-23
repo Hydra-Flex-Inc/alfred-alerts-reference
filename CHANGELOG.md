@@ -1,3 +1,10 @@
+## [2.2.11](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.10...v2.2.11) (2024-09-23)
+
+
+### Bug Fixes
+
+* Update tokens in npm-publish.yml ([c45d3ab](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/c45d3ab610fa6a7f95ab79695addd3cfec2b6c79))
+
 ## [2.2.10](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.9...v2.2.10) (2024-09-23)
 
 
