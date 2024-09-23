@@ -37,7 +37,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
-          nextRelease=$(npx semantic-release --dry-run | grep 'nextRelease' | awk '{print $2}')
+          npx semantic-release | tee release_output.txt
+          nextRelease=$(grep -oP '(?<=nextRelease: ).*' release_output.txt)
           echo "nextRelease=$nextRelease" >> $GITHUB_ENV
       - name: Publish package
         run: npm publish
