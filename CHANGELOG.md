@@ -1,3 +1,10 @@
+## [2.2.20](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.19...v2.2.20) (2024-09-23)
+
+
+### Bug Fixes
+
+* removed @semantic-release/npm ([eb8adc8](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/eb8adc826c0f166efed3811e2ffb30f55f1333df))
+
 ## [2.2.19](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.18...v2.2.19) (2024-09-23)
 
 
