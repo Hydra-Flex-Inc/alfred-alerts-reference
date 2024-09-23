@@ -1,3 +1,10 @@
+## [2.2.17](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.16...v2.2.17) (2024-09-23)
+
+
+### Bug Fixes
+
+* Add npmPublish to .releaserc ([f590caf](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/f590caff89ee6d89dd9d383e863bac6f92453421))
+
 ## [2.2.16](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.15...v2.2.16) (2024-09-23)
 
 
