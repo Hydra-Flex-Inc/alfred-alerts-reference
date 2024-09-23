@@ -1,7 +1,7 @@
 {
     "type": "module",
     "name": "@Hydra-Flex-Inc/alfred-alerts-reference",
-    "version": "2.2.9",
+    "version": "0.0.0-semantic-release",
     "description": "Function to access alert descriptions for the Alfred system",
     "exports": "./index.js",
     "author": "Ken Martin <kmartin@hydraflexinc.com>",

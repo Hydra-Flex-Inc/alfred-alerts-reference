@@ -31,11 +31,14 @@ jobs:
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
         run: npm audit signatures
       - name: Release
+        id: release_step
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release
+        run: |
+          nextRelease=$(npx semantic-release --dry-run | grep 'nextRelease' | awk '{print $2}')
+          echo "nextRelease=$nextRelease" >> $GITHUB_ENV
       - name: Publish package
         run: npm publish
         env:
