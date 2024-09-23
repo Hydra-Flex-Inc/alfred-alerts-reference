@@ -1,3 +1,11 @@
+## [2.2.21](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.20...v2.2.21) (2024-09-23)
+
+
+### Bug Fixes
+
+* Add to run command ([db1a256](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/db1a256f34f5d1bf9c0a054356249930a2422d46))
+* updated npm-publish ([3fa463b](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/3fa463bc9d3bc352956bb0d4ff499ab735cfeb3f))
+
 ## [2.2.20](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.19...v2.2.20) (2024-09-23)
 
 
