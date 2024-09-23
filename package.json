@@ -10,7 +10,8 @@
         "url": "https://github.com/Hydra-Flex-Inc/alfred-alerts-reference.git"
     },
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
+        "registry": "https://npm.pkg.github.com/",
+        "tag": "latest"
     },
     "devDependencies": {
         "@semantic-release/changelog": "^6.0.3",
