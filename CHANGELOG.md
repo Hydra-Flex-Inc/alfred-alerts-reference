@@ -1,3 +1,11 @@
+## [2.2.19](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.18...v2.2.19) (2024-09-23)
+
+
+### Bug Fixes
+
+* add npm publish step ([edd1c82](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/edd1c82016be8918345fe54595d73089178795b8))
+* update yml files ([0970a22](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/0970a22999e5af03b01b72ee569dae65406ede86))
+
 ## [2.2.18](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.17...v2.2.18) (2024-09-23)
 
 
