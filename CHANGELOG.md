@@ -1,3 +1,10 @@
+## [2.2.12](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.11...v2.2.12) (2024-09-23)
+
+
+### Bug Fixes
+
+* Use sematic-release default verion for npm-publish ([19f5315](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/19f531544eb39bcd6ac9367748e6c4a11b2ac337))
+
 ## [2.2.11](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.10...v2.2.11) (2024-09-23)
 
 
