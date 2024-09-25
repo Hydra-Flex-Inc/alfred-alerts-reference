@@ -1,3 +1,10 @@
+## [2.2.22](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.21...v2.2.22) (2024-09-25)
+
+
+### Bug Fixes
+
+* update package.json ([40af685](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/40af685d19f6c4931757542171c24e11a2690e57))
+
 ## [2.2.21](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.20...v2.2.21) (2024-09-23)
 
 
