@@ -1,3 +1,10 @@
+## [2.2.26](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.25...v2.2.26) (2024-09-25)
+
+
+### Bug Fixes
+
+* remove NPM_TOKEN ([c685101](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/c6851018b287955c117faa9bebc0d001d25d7228))
+
 ## [2.2.25](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.24...v2.2.25) (2024-09-25)
 
 
