@@ -1,3 +1,10 @@
+## [2.2.34](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.33...v2.2.34) (2024-09-25)
+
+
+### Bug Fixes
+
+* clean up code, add test step in workflow ([9ed5d04](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/9ed5d04571e624d442ba638beef6a9f6193c626d))
+
 ## [2.2.33](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.32...v2.2.33) (2024-09-25)
 
 
