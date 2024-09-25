@@ -31,19 +31,11 @@ jobs:
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
         run: npm audit signatures
       - name: Release
-        id: release_step
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: |
-          npx semantic-release | tee release_output.txt
-          nextRelease=$(grep -oP '(?<=nextRelease: ).*' release_output.txt)
-          echo "nextRelease=$nextRelease" >> $GITHUB_ENV
-      - name: Publish package
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.JW_ACCESS }}
+          NPM_TOKEN: ${{ secrets.JW_ACCESS }}
+        run: npx semantic-release
 
 # name: Release Node.js Package
 
