@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "@Hydra-Flex-Inc/alfred-alerts-reference",
+  "name": "@hydra-flex-inc/alfred-alerts-reference",
   "version": "2.2.25",
   "description": "Function to access alert descriptions for the Alfred system",
   "exports": "./index.js",
