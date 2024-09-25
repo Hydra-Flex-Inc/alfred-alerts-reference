@@ -1,3 +1,10 @@
+## [2.2.33](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.32...v2.2.33) (2024-09-25)
+
+
+### Bug Fixes
+
+* add npm plugin ([91132e1](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/91132e1ba10f537e86a0db43eeed96392ece174c))
+
 ## [2.2.32](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.31...v2.2.32) (2024-09-25)
 
 
