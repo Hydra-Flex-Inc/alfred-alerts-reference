@@ -1,3 +1,10 @@
+## [2.2.29](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.28...v2.2.29) (2024-09-25)
+
+
+### Bug Fixes
+
+* update NODE_AUTH_TOKEN ([9133cfa](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/9133cfa58f0745bf3ecd3a7f9ffa5aa9344b662a))
+
 ## [2.2.28](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.27...v2.2.28) (2024-09-25)
 
 
