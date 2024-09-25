@@ -1,3 +1,10 @@
+## [2.2.27](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.26...v2.2.27) (2024-09-25)
+
+
+### Bug Fixes
+
+* add publish step ([9c42f4a](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/9c42f4a70c136614ee83a6ba514618811ac3ca3a))
+
 ## [2.2.26](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.25...v2.2.26) (2024-09-25)
 
 
