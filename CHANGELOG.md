@@ -1,3 +1,10 @@
+## [2.2.23](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.22...v2.2.23) (2024-09-25)
+
+
+### Bug Fixes
+
+* removed private field ([88fe943](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/88fe9437f39a56206333f087d7e9ec4cd6995253))
+
 ## [2.2.22](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.21...v2.2.22) (2024-09-25)
 
 
