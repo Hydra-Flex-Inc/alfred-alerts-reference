@@ -1,6 +1,5 @@
 {
     "type": "module",
-    "private":"false",
     "name": "@Hydra-Flex-Inc/alfred-alerts-reference",
     "version": "0.0.0-semantic-release",
     "description": "Function to access alert descriptions for the Alfred system",
