@@ -31,6 +31,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
+      - name: Publish
+        run: npm publish
 # name: Release
 # on:
 #   push:
