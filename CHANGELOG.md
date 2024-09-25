@@ -1,3 +1,10 @@
+## [2.2.30](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.29...v2.2.30) (2024-09-25)
+
+
+### Bug Fixes
+
+* add registry url ([c390838](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/c3908382daf827b01d4d2824fe3afacaac3e2c8d))
+
 ## [2.2.29](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.28...v2.2.29) (2024-09-25)
 
 
