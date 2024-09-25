@@ -1,3 +1,11 @@
+## [2.2.32](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.31...v2.2.32) (2024-09-25)
+
+
+### Bug Fixes
+
+* remove cache of node_modules ([3bdd3f2](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/3bdd3f275b0cf54f5b34bd78c16f618fc8ba400c))
+* remove cache of node_modules ([cdf0c64](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/cdf0c64f299b8c13de1cc1594e670418a3024c1c))
+
 ## [2.2.31](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.30...v2.2.31) (2024-09-25)
 
 
