@@ -1,3 +1,10 @@
+## [2.2.31](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.30...v2.2.31) (2024-09-25)
+
+
+### Bug Fixes
+
+* swith to personal token ([2bd2eef](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/2bd2eef1ad62bf3c76b081e4e5ed0ed3a31dc44d))
+
 ## [2.2.30](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.29...v2.2.30) (2024-09-25)
 
 
