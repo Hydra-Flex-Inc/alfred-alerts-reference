@@ -1,3 +1,10 @@
+## [2.2.25](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.24...v2.2.25) (2024-09-25)
+
+
+### Bug Fixes
+
+* Add semantic-release dependancies ([383b755](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/commit/383b7557ad98d4928ba36ec5060a1bb96a7ff926))
+
 ## [2.2.24](https://github.com/Hydra-Flex-Inc/alfred-alerts-reference/compare/v2.2.23...v2.2.24) (2024-09-25)
 
 
