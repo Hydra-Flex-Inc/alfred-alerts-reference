@@ -1,28 +1,25 @@
 {
-    "type": "module",
-    "name": "@Hydra-Flex-Inc/alfred-alerts-reference",
-    "version": "2.2.25",
-    "description": "Function to access alert descriptions for the Alfred system",
-    "exports": "./index.js",
-    "author": "Ken Martin <kmartin@hydraflexinc.com>",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Hydra-Flex-Inc/alfred-alerts-reference.git"
-    },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/",
-        "tag": "latest"
-    },
-    "devDependencies": {
-        "@semantic-release/changelog": "^6.0.3",
-        "@semantic-release/git": "^10.0.1",
-        "@semantic-release/github": "^11.0.0",
-        "@semantic-release/npm": "^12.0.1",
-        "rewire": "^7.0.0",
-        "semantic-release": "^24.1.1",
-        "vitest": "^2.1.1"
-    },
-    "scripts": {
-        "test": "vitest"
-    }
+  "type": "module",
+  "name": "@Hydra-Flex-Inc/alfred-alerts-reference",
+  "version": "2.2.25",
+  "description": "Function to access alert descriptions for the Alfred system",
+  "exports": "./index.js",
+  "author": "Ken Martin <kmartin@hydraflexinc.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hydra-Flex-Inc/alfred-alerts-reference.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "tag": "latest"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "rewire": "^7.0.0",
+    "vitest": "^2.1.1"
+  },
+  "scripts": {
+    "test": "vitest"
+  }
 }
