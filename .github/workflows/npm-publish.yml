@@ -46,8 +46,9 @@ jobs:
       - name: Run semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEBUG: "semantic-release*"
         run: npx semantic-release
-      - name: Publish
-        run: npm publish --registry=https://npm.pkg.github.com
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
+      # - name: Publish
+      #   run: npm publish --registry=https://npm.pkg.github.com
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
