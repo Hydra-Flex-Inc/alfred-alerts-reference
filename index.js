@@ -310,5 +310,6 @@ export {
     alertDescriptionLookup,
     PANEL_CODES,
     GATEWAY_CODES,
-    GRUNDFOS_CODES
+    GRUNDFOS_CODES,
+    AQUALAB_QE
 }
