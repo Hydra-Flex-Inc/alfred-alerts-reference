@@ -251,7 +251,24 @@ const AQUALAB_QE = {
         "summary": "Aqua-Lab QE Dilution Ratio has changed",
         "description": `Position number POSITION_NUMBER on panel PANEL_NUMBER has updated CHANGE_NAME to CHANGE_VALUE.`,
         "recommendations": []
-    }
+    },
+    "CHEM_ZERO_FLOW": {
+        "summary": "Problem with chemical flow",
+        "description": "Position number POSITION_NUMBER on panel PANEL_NUMBER is seeing no chemical flow despite being open.",
+        "recommendations": [
+            "Confirm the chemical container is not empty",
+            "Confirm the chemical lines are connected and open",
+            "Confirm that the foot valve is in place and undamaged"
+        ]
+    },
+    "WATER_ZERO_FLOW": {
+        "summary": "Problem with water flow",
+        "description": "Position number POSITION_NUMBER on panel PANEL_NUMBER is seeing no water flow despite being open.",
+        "recommendations": [
+            "Confirm the water supply is working",
+            "Confirm the output line and applicator(s) are not blocked"
+        ]
+    },
 };
 // Helper function(s)
 const parseMinutesIntoText = (original_minutes) => {
