@@ -246,6 +246,13 @@ const GRUNDFOS_CODES = {
         "recommendations": ["Identify and remove the fault cause."]
     }
 };
+const AQUALAB_QE = {
+    "POSITION_SETTINGS": {
+        "summary": "Aqua-Lab QE Dilution Ratio has changed",
+        "description": `Position number POSITION_NUMBER on panel PANEL_NUMBER has updated CHANGE_NAME to CHANGE_VALUE.`,
+        "recommendations": []
+    }
+};
 // Helper function(s)
 const parseMinutesIntoText = (original_minutes) => {
     let out = null;
